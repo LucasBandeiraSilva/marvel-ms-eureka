@@ -1,6 +1,13 @@
 spring:
   application:
     name: eurekaserver
+  security:
+    basic:
+      enabled: true
+    user:
+      name: msmarvel-user
+      password: arvmelsm
+
 
 server:
   port: 8761
